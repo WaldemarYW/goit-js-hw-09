@@ -23,3 +23,28 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-item {
+  position: relative; 
+}
+
+.gallery-link {
+  display: block; 
+}
+
+.gallery-image {
+  width: 100%; 
+  height: auto; 
+  transition: transform 0.3s ease; 
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
