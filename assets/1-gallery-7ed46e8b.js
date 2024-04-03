@@ -8,5 +8,5 @@ import{S as o}from"./vendor-870f0eb5.js";const i=[{preview:"https://cdn.pixabay.
       />
     </a>
   </li>
-`).join("");a.innerHTML=t;new o(".gallery a",{captions:!0,captionDelay:250});
-//# sourceMappingURL=1-gallery-755edb9f.js.map
+`).join("");a.innerHTML=t;new o(".gallery a",{captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=1-gallery-7ed46e8b.js.map
